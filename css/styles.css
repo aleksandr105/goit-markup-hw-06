@@ -511,6 +511,8 @@ img {
 .form-footer {
   margin-left: 93px;
   position: relative;
+  display: flex;
+  align-items: end;
 }
 .input-footer {
   display: block;
@@ -520,11 +522,10 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   padding: 0 16px;
+  color: #ffffff;
 }
 .form-button {
-  position: absolute;
-  left: calc(100% + 12px);
-  bottom: 0px;
+  margin-left: 12px;
   width: 200px;
   height: 50px;
   font-weight: 700;
